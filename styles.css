@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@200&family=Raleway:ital,wght@1,300&family=Roboto&family=Roboto+Slab:wght@200&family=Zen+Maru+Gothic:wght@300&display=swap');body {
+  margin: 0 auto;
+  text-align: center;
+  font-family: 'Patrick Hand', cursive;
+  /* font-style: italic; */
+}
+:root {
+  --primary-color: #4f46e5;
+}
+header {
+  background-color: var(--primary-color);
+  padding: 1rem;
+  margin-bottom: 3.5rem;
+  height: 2rem;
+}
+header h1 {
+  position: relative;
+  top: -1.5rem;
+  font-size: 1.5rem;
+}
+textarea {
+  width: 45%;
+  border: 1px solid black;
+}
+textarea::placeholder{
+    font-size: large;
+    /* font-style: italic; */
+}
+#btn-input{
+    position: relative;
+    right: 10.8rem;
+    background-color: var(--primary-color);
+    border-style: none;
+    width: 20%;
+    padding: 1.5rem;
+    font-size: larger;
+    /* font-style: italic; */
+}
+#btn-input:hover{
+    cursor: pointer;
+    background-color: #1911b5;
+}
+.message-para{
+    position: relative;
+    right: 11rem;
+    font-size: large;
+    font-weight: bold;
+}
+#output-text{
+  width: 46.5%;
+  height: 15vh;
+  border: 1px solid black;
+  position: relative;
+  left: 23.3rem;
+  font-weight: bolder;
+  text-align: left;
+  padding-left: 1rem;
+}
+.footer{
+  background-color: var(--primary-color);
+  height: 6.9rem;
+  text-align: center;
+  margin: 0;
+}
+.footer h2{
+  font-size: large;
+}
+.footer-para{
+  /* position: relative; */
+  /* left: 1rem; */
+  /* top: -0.5rem; */
+  font-size: medium;
+  font-weight: bold;
+  text-align: center;
+}
