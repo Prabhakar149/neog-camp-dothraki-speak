@@ -101,10 +101,10 @@ textarea::placeholder{
     font-size: large;
   }
   .message-para{
-    right: 0.5rem;
+    right: -0.5rem;
     top: -1rem;
   }
   #output-text{
-    left: 8rem;
+    left: 6rem;
   }
 }
