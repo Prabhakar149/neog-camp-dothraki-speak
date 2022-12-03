@@ -1,8 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@200&family=Raleway:ital,wght@1,300&family=Roboto&family=Roboto+Slab:wght@200&family=Zen+Maru+Gothic:wght@300&display=swap');body {
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@200&family=Raleway:ital,wght@1,300&family=Roboto&family=Roboto+Slab:wght@200&family=Zen+Maru+Gothic:wght@300&display=swap');
+body {
   margin: 0 auto;
   text-align: center;
   font-family: 'Patrick Hand', cursive;
-  /* font-style: italic; */
 }
 :root {
   --primary-color: #4f46e5;
@@ -19,22 +19,21 @@ header h1 {
   font-size: 1.5rem;
 }
 textarea {
-  width: 45%;
+  width: 50%;
   border: 1px solid black;
 }
 textarea::placeholder{
     font-size: large;
-    /* font-style: italic; */
 }
 #btn-input{
     position: relative;
     right: 10.8rem;
     background-color: var(--primary-color);
-    border-style: none;
+    border-style: none;   
+    border-radius: 0.5rem;
     width: 20%;
     padding: 1.5rem;
     font-size: larger;
-    /* font-style: italic; */
 }
 #btn-input:hover{
     cursor: pointer;
@@ -48,7 +47,7 @@ textarea::placeholder{
 }
 #output-text{
   width: 46.5%;
-  height: 15vh;
+  height: auto;
   border: 1px solid black;
   position: relative;
   left: 23.3rem;
@@ -66,10 +65,45 @@ textarea::placeholder{
   font-size: large;
 }
 .footer-para{
-  /* position: relative; */
-  /* left: 1rem; */
-  /* top: -0.5rem; */
   font-size: medium;
   font-weight: bold;
   text-align: center;
+}
+
+/* for small devices */
+
+@media (max-width: 900px){
+  #btn-input{
+    right: 0rem;
+    top: -1rem;
+    width: 30%;
+    padding: 0.5rem;
+    font-size: large;
+  }
+  .message-para{
+    right: -0.5rem;
+    top: -1rem;
+  }
+  #output-text{
+    left: 8rem;
+  }
+}
+
+/* for extra small devices */
+
+@media (max-width: 360px){
+  #btn-input{
+    right: 0rem;
+    top: -1rem;
+    width: 30%;
+    padding: 0.5rem;
+    font-size: large;
+  }
+  .message-para{
+    right: -0.5rem;
+    top: -1rem;
+  }
+  #output-text{
+    left: 8rem;
+  }
 }
